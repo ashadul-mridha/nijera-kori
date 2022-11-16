@@ -337,9 +337,12 @@ header .headwe-nav {
 header .headwe-nav .nav-div .navbar {
 	padding: 0px;
 }
-header .headwe-nav .nav-div .navbar-nav {
+/* header .headwe-nav .nav-div .navbar-nav {
 	padding: 20px 0px;
-}
+} */
+/* header .headwe-nav .nav-div .navbar-nav .nav-item{
+	padding: 20px 0px;
+} */
 header .headwe-nav .nav-div .navbar-nav .nav-item .nav-link {
 	text-transform: uppercase;
 	font-size: 0.8rem;

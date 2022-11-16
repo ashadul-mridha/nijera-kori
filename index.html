@@ -32,6 +32,29 @@
 			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 		/>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+		<style>
+			.dropdown .dropdown-menu{
+				background-color: #dddddd;
+			}
+			.dropdown .dropdown-menu .dropdown-item{
+				text-transform: uppercase;
+				font-size: 0.8rem;
+				font-weight: 500;
+				color: #313186;
+			}
+			
+			@media screen and (min-width: 992px) {
+				.dropdown:hover .dropdown-menu {
+					display: block;
+					margin-top: 0;
+				}
+				header .headwe-nav .nav-div .navbar-nav .nav-item{
+					padding: 20px 0px;
+				}
+			}
+			
+		</style>
 	</head>
 
 	<body>
@@ -93,8 +116,16 @@
 										<li class="nav-item">
 											<a class="nav-link" href="causes.html">What we do</a>
 										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="events.html">Partners</a>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners</a>
+
+											<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+												<a class="dropdown-item" href="#">Action</a>
+												<a class="dropdown-item" href="#">submenu Action</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#">Something else here</a>
+											</div>
+
 										</li>
 										<li class="nav-item">
 											<a class="nav-link" href="blog.html"
